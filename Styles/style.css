@@ -57,6 +57,14 @@ p {
   font-weight: 600;
 }
 
+a {
+  color: var(--primary-color);
+}
+
+a:visited {
+  color: var(--sub-primary-color);
+}
+
 /* --- MAIN STYLES --- */
 .main-wrapper {
   max-width: 800px;
