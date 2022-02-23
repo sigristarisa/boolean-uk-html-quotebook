@@ -1,9 +1,63 @@
 /* --- FONTS --- */
-@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap"); /* 'Righteous', cursive */
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap"); /* font-family: 'Fugaz One', cursive */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); /* 'Montserrat', sans-serif */
 
 /* --- COLORS --- */
 html {
   --primary-color: rgb(236, 61, 90);
   --sub-primary-color: rgb(197, 170, 16);
+}
+
+/* --- BASE STYLES --- */
+
+header {
+  width: 100vw;
+  height: 100px;
+  padding: 10px;
+  font-family: "Fugaz One", cursive;
+  font-size: 2em;
+}
+
+main {
+  width: 100vw;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25em;
+}
+
+p {
+  margin-bottom: 30px;
+  line-height: 1.5em;
+  font-style: italic;
+}
+
+/* --- MAIN STYLES --- */
+.main-wrapper {
+  width: 800px;
+}
+
+.season-container {
+  margin-bottom: 50px;
+}
+
+.quote-container ul {
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.quote {
+  height: 200px;
+  border: red 1px solid;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+.quote span {
+  margin-right: 50px;
+  align-self: flex-end;
 }
