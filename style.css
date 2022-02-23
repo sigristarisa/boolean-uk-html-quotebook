@@ -1,0 +1,9 @@
+/* --- FONTS --- */
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap"); /* 'Righteous', cursive */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); /* 'Montserrat', sans-serif */
+
+/* --- COLORS --- */
+html {
+  --primary-color: rgb(236, 61, 90);
+  --sub-primary-color: rgb(197, 170, 16);
+}
