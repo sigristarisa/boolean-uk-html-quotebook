@@ -4,7 +4,7 @@
 
 /* --- COLORS --- */
 html {
-  --primary-color: rgb(236, 61, 90);
+  --primary-color: rgb(236, 61, 157);
   --sub-primary-color: rgb(197, 170, 16);
 }
 
@@ -12,10 +12,13 @@ html {
 
 header {
   width: 100vw;
-  height: 100px;
-  padding: 10px;
-  font-family: "Fugaz One", cursive;
-  font-size: 2em;
+  height: 150px;
+  padding-left: 20px;
+  margin-bottom: 30px;
+  color: var(--sub-primary-color);
+  background-color: var(--primary-color);
+  display: grid;
+  align-items: center;
 }
 
 main {
@@ -24,10 +27,18 @@ main {
   font-size: 1.25em;
 }
 
+h1 {
+  margin: 0;
+  font-family: "Fugaz One", cursive;
+  font-size: 4em;
+  text-shadow: 2px 2px 2px black;
+}
+
 p {
   margin-bottom: 30px;
   line-height: 1.5em;
   font-style: italic;
+  font-weight: 600;
 }
 
 /* --- MAIN STYLES --- */
@@ -40,14 +51,16 @@ p {
 }
 
 .quote-container ul {
-  gap: 10px;
+  gap: 1em;
   list-style: none;
   padding: 0;
 }
 
 .quote {
-  height: 200px;
-  border: red 1px solid;
+  height: 300px;
+  padding: 10px;
+  border: var(--primary-color) 2px solid;
+  border-radius: 30px;
 
   display: flex;
   flex-direction: column;
