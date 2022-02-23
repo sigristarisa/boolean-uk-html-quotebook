@@ -34,6 +34,13 @@ h1 {
   text-shadow: 2px 2px 2px black;
 }
 
+h2 {
+  font-size: 2em;
+  font-weight: 800;
+  color: var(--primary-color);
+  text-shadow: 3px 3px 1px black;
+}
+
 p {
   margin-bottom: 30px;
   line-height: 1.5em;
@@ -59,7 +66,7 @@ p {
 .quote {
   height: 300px;
   padding: 10px;
-  border: var(--primary-color) 2px solid;
+  border: var(--sub-primary-color) 2px solid;
   border-radius: 30px;
 
   display: flex;
